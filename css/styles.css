@@ -1,0 +1,51 @@
+body{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+.fond{
+    background-color: #F2F2F2;
+}
+/*en tête de la page*/
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#ul{
+    display: flex;
+    list-style: none;
+}
+#li1{
+    color: #0065FC;
+}
+#li2{
+    margin: 0 30px;
+    color: gray;
+}
+.marge{
+    line-height: 4px;
+}
+#ligne1{
+    color: gray;
+    font-size: small;
+}
+#barre_nav{
+    width: 300px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+/* section hotel*/
+#hotel{
+    display: flex;
+}
+
+/*image hébergement*/
+#hote{
+    display: flex;
+}
+.image{
+    width: 150px;
+    height: 100px;
+}
+    
