@@ -2,11 +2,23 @@ body{
     font-family: "Raleway", sans-serif;
     margin: 0;
 }
-.fond{
+.blanc{
+    color: white;
+}
+.bleue{
+    color: #0065FC;
+}
+.gris{
+    color: gray;
+}
+.fondgris{
     background-color: #F2F2F2;
 }
+.fondbleue{
+    background-color: #0065FC;
+}
 /*en tête de la page*/
-#nav{
+.nav{
     display: flex;
     justify-content: space-between;
 }
@@ -14,25 +26,42 @@ body{
     display: flex;
     list-style: none;
 }
-#li1{
-    color: #0065FC;
-}
 #li2{
     margin: 0 30px;
     color: gray;
 }
-.marge{
+.margeligne{
     line-height: 4px;
 }
 #ligne1{
     color: gray;
     font-size: small;
 }
-#barre_nav{
+/*barre de navigation*/
+.barre_nav{
     width: 300px;
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+}
+.bordure{
+    border: none;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taille_ar_gris{
+    font-size: 25px;
+    background-size: 100px;
+}
+.taille_ar{
+    width: 40px;
+    height: 40px;
+}
+.taillerecherche{
+    width: 130px;
 }
 
 /* section hotel*/
