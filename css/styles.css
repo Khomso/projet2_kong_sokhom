@@ -39,7 +39,6 @@ body{
 .barre_nav{
     width: 400px;
     display: flex;
-    justify-content: space-around;
 }
 .bordure{
     border: none;
@@ -58,11 +57,16 @@ body{
     height: 50px;
     border-radius: 10px 0 0 10px;
 }
+.ville{
+    height: 50px;
+    width: 200px;
+}
 .bouton_recherche{
-    width: 140px;
+    width: 135px;
     height: 50px;
     color: white;
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 /* section hotel*/
 #hotel{
