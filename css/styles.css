@@ -30,7 +30,7 @@ body{
 .margeligne{
     line-height: 4px;
 }
-#ligne1{
+.ligne{
     color: gray;
     font-size: small;
 }
@@ -70,7 +70,15 @@ body{
 }
 /*filtres*/
 .filtre{
-    display: flex
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
 }
 /* section hotel*/
 #hotel{
