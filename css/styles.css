@@ -40,6 +40,9 @@ body{
     width: 400px;
     display: flex;
 }
+.padding{
+    padding-top: 15px;
+}
 .bordure{
     border: none;
 }
@@ -60,6 +63,7 @@ body{
 .ville{
     height: 50px;
     width: 200px;
+    border: 0.9px solid #F2F2F2;
 }
 .bouton_recherche{
     width: 120px;
@@ -74,7 +78,10 @@ body{
     width: 600px;
     justify-content: space-between;
     align-items: center;
+    background-color: red;
 }
+
+/*info*/
 .info{
     width: 340px;
     display: flex;
