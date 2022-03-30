@@ -2,6 +2,11 @@ body{
     font-family: "Raleway", sans-serif;
     margin: 0;
 }
+
+.texte_gras{
+    font-weight: bold;
+}
+
 .bleue{
     color: #0065FC;
 }
@@ -75,12 +80,43 @@ body{
 /*filtres*/
 .filtre{
     display: flex;
-    width: 600px;
+    width: 650px;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
 }
 
+.taille_icone{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    color: #0065FC;
+    background-color:#deebff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.taille_filtre{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 0.9px solid #F2F2F2;
+    border-radius: 30px;
+}
+
+.bordure_filtre{
+    height: 30px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: white;
+}
+
+.marge{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 /*info*/
 .info{
     width: 340px;
