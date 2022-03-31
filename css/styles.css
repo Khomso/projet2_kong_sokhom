@@ -1,6 +1,6 @@
 body{
     font-family: "Raleway", sans-serif;
-    margin: 0;
+    margin:5px;
 }
 
 .texte_gras{
@@ -28,7 +28,7 @@ body{
     display: flex;
     list-style: none;
 }
-#li2{
+.li2{
     margin: 0 30px;
     color: gray;
 }
@@ -52,6 +52,7 @@ body{
     border: none;
 }
 .flex_centre{
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -134,16 +135,35 @@ body{
 }
 
 /* section hotel*/
-#hotel{
-    display: flex;
-}
 
-/*image hébergement*/
-#hote{
+.taille_grande_carte{
     display: flex;
+    flex-direction: column;
+    width: 680px;
+    height: 550px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.marge_hebergement{
+    margin-left: 30px;
 }
 .image{
-    width: 150px;
-    height: 100px;
+    padding-top:0.5px;
+    margin-top: 0.5px;
+    width: 210px;
+    height: 110px;
+    border-radius: 15px 15px 0 0;
+}
+.carte_blanche{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 222px;
+    height: 213px;
+    background-color: white;
+    border-radius: 15px;
+}
+.marge_blanche{
+    margin-left: 6px;
 }
     
