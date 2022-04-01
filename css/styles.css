@@ -113,8 +113,9 @@ body{
 }
 
 .marge{
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 /*info*/
@@ -132,17 +133,16 @@ body{
     border-radius: 13px;
 }
 
-/* section hotel*/
+/* section hébergment à Marseille*/
 
 .taille_grande_carte{
     display: flex;
     flex-direction: column;
-    width: 650px;
-    height: 550px;
+    width: 750px;
+    height: 580px;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
-
 .marge_hebergement{
     margin-left: 30px;
 }
@@ -154,11 +154,59 @@ body{
 .carte_blanche{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 218px;
-    height: 213px;
+    height: 190px;
     padding: 4px;
     background-color: white;
     border-radius: 15px;
 }
+.marge_blanche{
+    margin: 10px;
+}
+.margeligne{
+    line-height: 4px;
+}
+.espace_carte{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 
-    
+}
+.afficher_plus{
+    margin-left: 35px;
+    font-weight: bold;
+}
+/* aside les plus populaires*/
+
+.taille_petite_carte{
+    display: flex;
+    width: 350px;
+    height: 580px;
+    background-color: #F2F2F2;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.element_droite{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.image_populaire{
+    width: 130px;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+}
+.carte_blanche_populaire{
+    display: flex;
+    width: 300px;
+    height: 130px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
