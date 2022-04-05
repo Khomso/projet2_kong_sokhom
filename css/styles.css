@@ -101,7 +101,7 @@ body{
     height: 30px;
     justify-content: center;
     align-items: center;
-    border: 0.9px solid #F2F2F2;
+    border: solid #F2F2F2;
     border-radius: 30px;
 }
 
@@ -156,7 +156,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     width: 218px;
-    height: 190px;
+    height: 200px;
     padding: 4px;
     background-color: white;
     border-radius: 15px;
@@ -174,6 +174,15 @@ body{
     margin-left: 30px;
     margin-bottom: 20px;
 
+}
+.etoile{
+    display: flex;
+}
+
+.taille_etoile{
+    line-height: 0.5px;
+    width: 5px;
+    height: 5px;
 }
 .afficher_plus{
     margin-left: 35px;
@@ -225,7 +234,8 @@ body{
     margin-bottom: 2px;
 }
 .note_populaire{
-    margin-top: 50px;
+    display: flex;
+    margin-top: 35px;
     margin-left: 20px;
 }
 /*Activités a Marseille*/
@@ -237,50 +247,72 @@ body{
 }
 .conteneur1{
     width: 273px;
-    height: 500px;
-    background-color: orange;
-    border-radius: 15px;
+    height: 470px;
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
 }
 .conteneur2{
     width: 260px;
     margin-left: 30px;
-    background-color: blue;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+.sous_conteneur1{
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
+}
+.sous_conteneur2{
+    margin-top: 30px;
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
 }
 .conteneur3{
     width: 273px;
-    height: 500px;
+    height: 470px;
     margin-left: 30px;
-    background-color: yellow;
-    border-radius: 15px;
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
 }
 .conteneur4{
     width: 260px;
     margin-left: 30px;
-    background-color: aquamarine;
-    border-radius: 15px;
+    border-radius: 20px;
+}
+.sous_conteneur3{
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
+    margin-bottom: 30px;
+}
+.sous_conteneur4{
+    border-radius: 20px;
+    border: solid #F2F2F2 ;
+}
+.bordure_img_activite{
+    border-radius: 15px 15px 0 0;
 }
 .image1{
     width: 273px;
-    height: 400px;
+    height: 425px;
 }
 .image2{
     width: 100%;
-    height: 150px;
+    height: 200px;
 }
 .image3{
-    width: 260px;
+    width: 100%;
     height: 150px;
 }
 .image4{
     width: 273px;
-    height: 400px;
+    height: 425px;
 }
 .image5{
-    width: 260px;
+    width: 100%;
     height: 150px;
 }
 .image6{
-    width: 260px;
-    height: 150px;
+    width: 100%;
+    height: 200px;
+}
+.sous_titre_activite{
+    margin: 10px;
 }
