@@ -316,3 +316,24 @@ body{
 .sous_titre_activite{
     margin: 10px;
 }
+/* pied de page*/
+
+.sous_titre_pied{
+    font-weight: bold;
+    color: black;
+}
+.pied_de_page{
+    background-color: #F2F2F2;
+}
+.liste{
+    list-style: none;
+}
+.carte{
+    margin-right: 150px;
+}
+.flex{
+    display: flex;
+}
+.marge_ligne{
+    line-height: 6px;
+}
