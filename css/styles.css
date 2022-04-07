@@ -1,7 +1,6 @@
 body{
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
-
 .texte_gras{
     font-weight: bold;
 }
@@ -83,6 +82,7 @@ body{
     width: 650px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .taille_icone{
@@ -101,8 +101,9 @@ body{
     height: 30px;
     justify-content: center;
     align-items: center;
-    border: solid #F2F2F2;
+    border: 1px solid #F2F2F2;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .bordure_filtre{
@@ -337,5 +338,5 @@ body{
     display: flex;
 }
 .marge_ligne{
-    line-height: 6px;
+    line-height: 15px
 }
