@@ -1,6 +1,9 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
+img{
+    object-fit: cover;
+}
 .texte_gras{
     font-weight: bold;
 }
@@ -122,7 +125,7 @@ body{
 /*info*/
 
 .info{
-    width: 340px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
 }
@@ -324,6 +327,7 @@ body{
 .sous_titre_pied{
     font-weight: bold;
     color: black;
+    margin: 0;
 }
 .pied_de_page{
     background-color: #F2F2F2;
