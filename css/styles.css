@@ -84,18 +84,20 @@ body{
     align-items: center;
     cursor: pointer;
 }
-
-.taille_icone{
+.cercle_icone{
     display: flex;
-    height: 30px;
-    width: 30px;
-    color: #0065FC;
-    background-color:#deebff;
     justify-content: center;
     align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color:#deebff;
     border-radius: 15px;
 }
-
+.couleur_icone_nav{
+    display: flex;
+    color: #0065FC;
+    
+}
 .taille_filtre{
     display: flex;
     height: 30px;
@@ -105,14 +107,12 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
-
 .bordure_filtre{
     height: 30px;
     border-radius: 50px;
     border: none;
     background-color: white;
 }
-
 .marge{
     display: flex;
     margin-top: 25px;
