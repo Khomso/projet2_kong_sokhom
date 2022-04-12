@@ -1,13 +1,15 @@
 body{
     font-family: 'Raleway', sans-serif;
+    width: 992px;
+    margin: auto;
 }
 img{
     object-fit: cover;
 }
+
 .texte_gras{
     font-weight: bold;
 }
-
 .bleue{
     color: #0065FC;
 }
@@ -23,14 +25,14 @@ img{
 /*en tête de la page*/
 .nav{
     display: flex;
-    justify-content: space-between;
 }
 #ul{
     display: flex;
     list-style: none;
+    margin-left: 55%;
 }
 .li2{
-    margin: 0 30px;
+    margin-left: 30px;
     color: gray;
 }
 .margeligne{
@@ -142,13 +144,13 @@ img{
 .taille_grande_carte{
     display: flex;
     flex-direction: column;
-    width: 750px;
+    width: 685px;
     height: 580px;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
 .marge_hebergement{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .image{
     width: 100%;
@@ -159,25 +161,28 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 218px;
+    width: 195px;
     height: 200px;
     padding: 4px;
     background-color: white;
     border-radius: 15px;
+    margin-left: 20px;
 }
+
 .marge_blanche{
-    margin: 10px;
+    margin: 5px;
+}
+.taille_nuit{
+    font-size: small;
+    color: gray;
 }
 .margeligne{
     line-height: 4px;
 }
 .espace_carte{
     display: flex;
-    justify-content: space-around;
     width: 700px;
-    margin-left: 30px;
     margin-bottom: 20px;
-
 }
 .etoile{
     display: flex;
@@ -191,38 +196,39 @@ img{
     height: 5px;
 }
 .afficher_plus{
-    margin-left: 35px;
+    margin-left: 20px;
     font-weight: bold;
 }
 /* aside les plus populaires*/
 
 .taille_petite_carte{
     display: flex;
-    width: 375px;
+    width: 287px;
     height: 580px;
     background-color: #F2F2F2;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 15px;
 }
+
 .element_droite{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .image_populaire{
-    width: 135px;
+    width: 100px;
     height: 130px;
     border-radius: 15px 0 0 15px;
 }
 .carte_blanche_populaire{
     display: flex;
-    width: 325px;
+    width: 255px;
     height: 130px;
     padding: 4px;
     background-color: white;
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: 35px;
 }
 .sous_titre_populaire{
@@ -248,18 +254,18 @@ img{
 
 .grande_carte_activite{
     display: flex;
-    width: 1155px;
-    height: 500px;
+    width: 992px;
+    height: 400px;
 }
 .conteneur1{
-    width: 273px;
-    height: 470px;
+    width: 230px;
+    height: 370px;
     border-radius: 20px;
     border: solid #F2F2F2 ;
 }
 .conteneur2{
     width: 260px;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 20px;
 }
 .sous_conteneur1{
@@ -272,15 +278,15 @@ img{
     border: solid #F2F2F2 ;
 }
 .conteneur3{
-    width: 273px;
-    height: 470px;
-    margin-left: 30px;
+    width: 230px;
+    height: 370px;
+    margin-left: 20px;
     border-radius: 20px;
     border: solid #F2F2F2 ;
 }
 .conteneur4{
     width: 260px;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 20px;
 }
 .sous_conteneur3{
@@ -296,51 +302,58 @@ img{
     border-radius: 15px 15px 0 0;
 }
 .image1{
-    width: 273px;
-    height: 425px;
+    width: 230px;
+    height: 325px;
 }
 .image2{
     width: 100%;
-    height: 200px;
+    height: 145px;
 }
 .image3{
     width: 100%;
-    height: 150px;
+    height: 110px;
 }
 .image4{
-    width: 273px;
-    height: 425px;
+    width: 230px;
+    height: 325px;
 }
 .image5{
     width: 100%;
-    height: 150px;
+    height: 115px;
 }
 .image6{
     width: 100%;
-    height: 200px;
+    height: 140px;
 }
 .sous_titre_activite{
     margin: 10px;
 }
 /* pied de page*/
-
+footer{
+    margin: 0;
+    padding: 0;
+}
 .sous_titre_pied{
     font-weight: bold;
     color: black;
     margin: 0;
 }
 .pied_de_page{
+    margin-top: 20px;
     background-color: #F2F2F2;
 }
 .liste{
     list-style: none;
 }
 .carte{
-    margin-right: 150px;
+    margin-right: 100px;
 }
 .flex{
     display: flex;
 }
 .marge_ligne{
     line-height: 15px
+}
+.marge_ul{
+    padding-left: 0px;
 }
