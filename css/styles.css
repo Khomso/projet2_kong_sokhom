@@ -1,8 +1,8 @@
 body{
     font-family: 'Raleway', sans-serif;
     width: 992px;
-    margin: auto;
-}
+    margin:auto;
+} 
 img{
     object-fit: cover;
 }
@@ -26,14 +26,23 @@ img{
 .nav{
     display: flex;
 }
-#ul{
+.logo{
+    width: 150px;
+}
+.ul{
     display: flex;
     list-style: none;
     margin-left: 55%;
 }
+.bordure_haut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .li2{
-    margin-left: 30px;
+    margin-left: 60px;
     color: gray;
+
 }
 .margeligne{
     line-height: 4px;
@@ -329,16 +338,15 @@ img{
     margin: 10px;
 }
 /* pied de page*/
-footer{
-    margin: 0;
-    padding: 0;
-}
+
 .sous_titre_pied{
+    padding-top: 20px;
     font-weight: bold;
     color: black;
     margin: 0;
 }
 .pied_de_page{
+    height: 150px;
     margin-top: 20px;
     background-color: #F2F2F2;
 }
@@ -352,7 +360,8 @@ footer{
     display: flex;
 }
 .marge_ligne{
-    line-height: 15px
+    font-size: small;
+    line-height: 10px;
 }
 .marge_ul{
     padding-left: 0px;
