@@ -1,7 +1,10 @@
-@media screen and (max-width:1175px){
-    body{
-        background-color: aqua;
+@media screen and (max-width:992px){
+    .logo_nav{
+    flex-direction: column;
+    align-items: center;
     }
-    
+    body{
+        text-align: center;
+    }
 }
     

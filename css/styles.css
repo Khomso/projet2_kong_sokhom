@@ -23,8 +23,10 @@ img{
     background-color: #0065FC;
 }
 /*en tête de la page*/
-.nav{
+.logo_nav{
     display: flex;
+    justify-content: space-between;
+    width: 992px;
 }
 .logo{
     width: 150px;
@@ -32,12 +34,16 @@ img{
 .ul{
     display: flex;
     list-style: none;
-    margin-left: 55%;
 }
-.bordure_haut{
+.bordure_haut a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    
+}
+.bordure_haut a:hover{
+    border-top: 1px solid blue;
 }
 .li2{
     margin-left: 60px;
