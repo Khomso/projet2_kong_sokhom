@@ -29,7 +29,8 @@ img{
     width: 992px;
 }
 .logo{
-    width: 150px;
+    object-fit: contain;
+    margin-left: 20px;
 }
 .ul{
     display: flex;
@@ -44,11 +45,6 @@ img{
 }
 .bordure_haut a:hover{
     border-top: 1px solid blue;
-}
-.li2{
-    margin-left: 60px;
-    color: gray;
-
 }
 .margeligne{
     line-height: 4px;
