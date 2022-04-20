@@ -9,7 +9,7 @@
     {
         width: 100%;
     }
-    
+
     .bordure_haut a:hover {
         border: 0;
     }
@@ -56,10 +56,6 @@
     .margeligne{
         line-height: initial;
     }
-    /* espace entre le logo I et le texte annulé*/
-    .info{
-    
-    }
     /*hébergement à marseille mobile*/
     h3{
         text-align: center;
@@ -98,15 +94,16 @@
         margin-left: 0;
         margin-top: 50px;
     }
-    .carte_blanche_populaire{
 
-    }
     .carte_centre{
-        width: 80%; 
-        align-self: center;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
     }
     .element_droite{
-        margin-left: 50px;
+        width: 65%;
     }
     /*activités à Marseille*/
     h2{
@@ -120,11 +117,18 @@
     .conteneur1,
     .conteneur2,
     .conteneur3,
-    .conteneur4{
+    .conteneur4 {
         display: flex;
         flex-direction: column;
         align-self: center;
         margin-top: 30px;
     }
+    /*footer*/
     
-    
+    .flex_pied_page{
+        flex-direction: column;
+        text-align: center;
+    }
+    .carte_pied_page{
+        width: 100%;
+    }

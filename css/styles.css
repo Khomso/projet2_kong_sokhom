@@ -348,14 +348,14 @@ img{
     margin: 0;
 }
 .pied_de_page{
-    height: 150px;
+
     margin-top: 20px;
     background-color: #F2F2F2;
 }
 .liste{
     list-style: none;
 }
-.carte{
+.carte_pied_page{
     margin-right: 100px;
 }
 .flex_pied_page{
