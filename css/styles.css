@@ -1,12 +1,17 @@
 body{
     font-family: 'Raleway', sans-serif;
+}
+#corps_de_page{
     width: 992px;
     margin:auto;
-} 
+}
 img{
     object-fit: cover;
 }
-
+h4{
+    font-size: small;
+    color: black;
+}
 .texte_gras{
     font-weight: bold;
 }
@@ -92,6 +97,10 @@ img{
     border-radius: 0 10px 10px 0;
     cursor: pointer;
 }
+input::placeholder{
+    font-weight: bold;
+    color: black;
+}
 /*filtres*/
 .filtre{
     display: flex;
@@ -128,6 +137,7 @@ img{
     border-radius: 50px;
     border: none;
     background-color: white;
+    cursor: pointer;
 }
 .marge{
     display: flex;
@@ -138,9 +148,9 @@ img{
 /*info*/
 
 .info{
-    width: 350px;
+    width: 360px;
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .info_couleur{
@@ -148,6 +158,11 @@ img{
     background-color: #0065FC;
     border: 0.9px solid #F2F2F2 ;
     border-radius: 13px;
+}
+.ligne_info{
+    color: gray;
+    font-size: small;
+    margin-left:10px;
 }
 
 /* section hébergment à Marseille*/
@@ -188,7 +203,7 @@ img{
     color: gray;
 }
 .margeligne{
-    line-height: 4px;
+    line-height: 5px;
 }
 .espace_carte{
     display: flex;
@@ -348,9 +363,9 @@ img{
     margin: 0;
 }
 .pied_de_page{
-
     margin-top: 20px;
     background-color: #F2F2F2;
+    width: 100%;
 }
 .liste{
     list-style: none;
@@ -360,6 +375,7 @@ img{
 }
 .flex_pied_page{
     display: flex;
+    margin-left:24%;
 }
 .marge_ligne{
     font-size: small;

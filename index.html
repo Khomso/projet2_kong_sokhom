@@ -1,109 +1,134 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/media.css">
 	<script src="https://kit.fontawesome.com/9861ff6000.js" crossorigin="anonymous"></script>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-		</style>
-    <title>Booki</title>
-	
+	</style>
+	<title>Booki</title>
+
 </head>
-	<body>
-<!-- en tete de la page --> 
-        <header>
-        	
-				<div class="logo_nav">
-					<img class="logo" src="images/logo/Booki.png" alt="logo">
-							<nav class="nav">
-							<ul class="ul">
-								<div class="bordure_haut navigation_bordure_survol"><li><a class="bleue" href="#hebergement" style="text-decoration:none">Hébergements</a></li></div>
-								<div class="bordure_haut navigation_bordure_survol.active"><li class="li2"><a class="gris" href="#activite" style="text-decoration:none">Activités</a></li></div>
-							</ul>
-					</nav>
-				</div>
-           
+<div id="corps_de_page">
+	<body >
+		<!-- en tete de la page -->
+		<header>
+	
+			<div class="logo_nav">
+				<img class="logo" src="images/logo/Booki.png" alt="logo">
+				<nav class="nav">
+					<ul class="ul">
+						<div class="bordure_haut navigation_bordure_survol">
+							<li><a class="bleue" href="#hebergement" style="text-decoration:none">Hébergements</a></li>
+						</div>
+						<div class="bordure_haut navigation_bordure_survol.active">
+							<li class="li2"><a class="gris" href="#activite" style="text-decoration:none">Activités</a></li>
+						</div>
+					</ul>
+				</nav>
+			</div>
+	
 		</header>
 		<section>
-				<div class="titre">
-					<div class="margeligne">
-						<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
-					</div>
-			 		<div class="margeligne">
-						 <p class="ligne">En plein centre ville ou en pleine nature</p>
-					</div>
-<!--barre de navigation-->
+			<div class="titre">
+				<div class="margeligne">
+					<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+				</div>
+				<div class="margeligne">
+					<p class="ligne">En plein centre ville ou en pleine nature</p>
+				</div>
+				<!--barre de navigation-->
 				<div class="barre_nav padding">
 					<div class="icone fondgris taille_ar_gris flex_centre">
-						<i class="fa-solid fa-location-dot"></i>	
-					</div>
-					<div><form action="post" action="traitement.php">
-					     <label for="Ville"></label >
-						 <input class="ville flex_centre" type="search" name="Ville" id="Ville" placeholder="Marseille,France"/>
-						 </form>
+						<i class="fa-solid fa-location-dot"></i>
 					</div>
 					<div>
-						<button class="bordure fondbleue blanc flex_centre bouton_recherche"type="submit">Rechercher</button>
+						<form action="post" action="traitement.php">
+							<label for="Ville"></label>
+							<input class="ville flex_centre" type="search" name="Ville" id="Ville"
+								placeholder="Marseille,France" />
+						</form>
+					</div>
+					<div>
+						<button class="bordure fondbleue blanc flex_centre bouton_recherche"
+							type="submit">Rechercher</button>
 					</div>
 				</div>
 	
 		</section>
-<!--filtre-->
+		<!--filtre-->
 		<div class="filtre flex_centre marge texte_gras">
-				<div><p>Filtres</p></div>
-
-				<div class="taille_filtre">
-					<div class="cercle_icone"><i class="fa-solid fa-money-bill-wave couleur_icone_nav"></i></div>
-					<div class="bordure_filtre"><button class="bordure_filtre texte_gras" type="button">Économique</button></div>
+			<div>
+				<p>Filtres</p>
+			</div>
+	
+			<div class="taille_filtre">
+				<div class="cercle_icone"><i class="fa-solid fa-money-bill-wave couleur_icone_nav"></i></div>
+				<div class="bordure_filtre"><button class="bordure_filtre texte_gras" type="button">Économique</button>
 				</div>
-				<div class="taille_filtre">
-					<div class="cercle_icone"><i class="fa-solid fa-child-reaching couleur_icone_nav"></i></div>
-					<div><button class="bordure_filtre texte_gras" type="button">Familial</button></div>
-				</div>
-				<div class="taille_filtre">
-					<div class="cercle_icone"><i class="fa-solid fa-heart couleur_icone_nav"></i></div>
-					<div><button class="bordure_filtre texte_gras" type="button">Romantique</button></div>
-				</div>
-				<div class="taille_filtre">
-					<div class="cercle_icone"><i class="fa-solid fa-dog couleur_icone_nav"></i></div>
-					<div><button class="bordure_filtre texte_gras" type="button">Animaux autorisés</button></div>
-				</div>
+			</div>
+			<div class="taille_filtre">
+				<div class="cercle_icone"><i class="fa-solid fa-child-reaching couleur_icone_nav"></i></div>
+				<div><button class="bordure_filtre texte_gras" type="button">Familial</button></div>
+			</div>
+			<div class="taille_filtre">
+				<div class="cercle_icone"><i class="fa-solid fa-heart couleur_icone_nav"></i></div>
+				<div><button class="bordure_filtre texte_gras" type="button">Romantique</button></div>
+			</div>
+			<div class="taille_filtre">
+				<div class="cercle_icone"><i class="fa-solid fa-dog couleur_icone_nav"></i></div>
+				<div><button class="bordure_filtre texte_gras" type="button">Animaux autorisés</button></div>
+			</div>
 		</div>
+		<!--phrase avec logo info-->
 
 		<div class="info flex_centre">
 			<i class="fa-solid fa-circle-info info_couleur"></i>
-			<div class="ligne">Plus de 500 logements sont disponible dans cette ville</div>
+			<div class="ligne_info">Plus de 500 logements sont disponible dans cette ville</div>
 		</div>
-
-<!-- Carte hébergement a Marseille-->
-
-		<section class="marge largeur">
-
+		<main>
+			<!-- Carte hébergement a Marseille-->
+	
+		<section class="marge largeur format_tablette">
+	
 			<div class="taille_grande_carte">
-
-				<div id="hebergement" class="marge_hebergement"><h3>Hébergement à Marseille </h3></div>
+	
+				<div id="hebergement" class="marge_hebergement">
+					<h3>Hébergement à Marseille </h3>
+				</div>
 				<div class="espace_carte">
 					<div a class="carte_blanche" href="#">
-						<div><img class="image"src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Auberge La Cannebière</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 25€</p></div>
+						<div><img class="image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+						</div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Auberge La Cannebière</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 25€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
-						</div>	
+						</div>
 					</div>
-
+	
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Hôtel du port</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 52€</p></div>
+						<div><img class="image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+						</div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Hôtel du port</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 52€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
@@ -111,12 +136,16 @@
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 						</div>
-						
+	
 					</div>
 					<div class="carte_blanche">
 						<div><img class="image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Hôtel Les mouettes</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 70€</p></div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Hôtel Les mouettes</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 70€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
@@ -128,9 +157,14 @@
 				</div>
 				<div class="espace_carte">
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Hôtel de la mer</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 46€</p></div>
+						<div><img class="image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+						</div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Hôtel de la mer</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 46€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
@@ -141,8 +175,12 @@
 					</div>
 					<div class="carte_blanche">
 						<div><img class="image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Auberge Le Panier</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 23€</p></div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Auberge Le Panier</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 23€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
@@ -152,9 +190,14 @@
 						</div>
 					</div>
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"></div>
-						<div class="margeligne"><h4 class="marge_blanche">Hôtel chez Amina</h4></div>
-						<div class="margeligne"><p class="marge_blanche taille_nuit">Nuit à partir de 96€</p></div>
+						<div><img class="image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+						</div>
+						<div class="margeligne">
+							<h4 class="marge_blanche">Hôtel chez Amina</h4>
+						</div>
+						<div class="margeligne">
+							<p class="marge_blanche taille_nuit">Nuit à partir de 96€</p>
+						</div>
 						<div class="margeligne etoile">
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
@@ -162,27 +205,37 @@
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
 						</div>
-					</div></div>
-
-					<div><p class="afficher_plus">Afficher plus</p></div>
-			
+					</div>
+				</div>
+	
+				<div>
+					<p class="afficher_plus">Afficher plus</p>
+				</div>
+	
 			</div>
-
-<!-- Carte les plus populaires-->
-
+	
+			<!-- Carte les plus populaires-->
+	
 			<aside class="taille_petite_carte">
-
+	
 				<div class="carte_centre">
 					<div class="element_droite">
-						<div><h3>Les plus populaires</h3></div>
+						<div>
+							<h3>Les plus populaires</h3>
+						</div>
 						<div><i class="fa-solid fa-chart-line"></i></div>
 					</div>
 					<div class="carte_centre">
 						<div class="carte_blanche_populaire">
-							<div><img class="image_populaire" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
+							<div><img class="image_populaire"
+									src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
 							<div>
-								<div class="sous_titre_populaire"><h4 class="marge_soustitre">Hôtel Le soleil du <br>matin</h4></div>
-								<div class="texte_populaire"><p class="taille_nuit">Nuit à partir de 128€</p></div>
+								<div class="sous_titre_populaire">
+									<h4 class="marge_soustitre">Hôtel Le soleil du <br>matin</h4>
+								</div>
+								<div class="texte_populaire">
+									<p class="taille_nuit">Nuit à partir de 128€</p>
+								</div>
 								<div class="note_populaire">
 									<p><i class="fa-solid fa-star bleue"></i></p>
 									<p><i class="fa-solid fa-star bleue"></i></p>
@@ -193,10 +246,15 @@
 							</div>
 						</div>
 						<div class="carte_blanche_populaire">
-							<div><img class="image_populaire" src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
+							<div><img class="image_populaire"
+									src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
 							<div>
-								<div class="sous_titre_populaire"><h4 class="marge_soustitre">Au coeur de l'eau <br> Chambres d'hôtes</h4></div>
-								<div class="texte_populaire"><p class="taille_nuit">Nuit à partir de 71€</p></div>
+								<div class="sous_titre_populaire">
+									<h4 class="marge_soustitre">Au coeur de l'eau <br> Chambres d'hôtes</h4>
+								</div>
+								<div class="texte_populaire">
+									<p class="taille_nuit">Nuit à partir de 71€</p>
+								</div>
 								<div class="note_populaire">
 									<p><i class="fa-solid fa-star bleue"></i></p>
 									<p><i class="fa-solid fa-star bleue"></i></p>
@@ -204,13 +262,18 @@
 									<p><i class="fa-solid fa-star bleue"></i></p>
 									<p><i class="fa-solid fa-star gris_claire"></i></p>
 								</div>
-							</div>	
+							</div>
 						</div>
 						<div class="carte_blanche_populaire">
-							<div><img class="image_populaire" src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
+							<div><img class="image_populaire"
+									src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
 							<div>
-								<div class="sous_titre_populaire"><h4 class="marge_soustitre">Hôtel Tout bleu et <br> Blanc</h4></div>
-								<div class="texte_populaire"><p class="taille_nuit">Nuit à partir de 68€</p></div>
+								<div class="sous_titre_populaire">
+									<h4 class="marge_soustitre">Hôtel Tout bleu et <br> Blanc</h4>
+								</div>
+								<div class="texte_populaire">
+									<p class="taille_nuit">Nuit à partir de 68€</p>
+								</div>
 								<div class="note_populaire">
 									<p><i class="fa-solid fa-star bleue"></i></p>
 									<p><i class="fa-solid fa-star bleue"></i></p>
@@ -218,94 +281,130 @@
 									<p><i class="fa-solid fa-star bleue"></i></p>
 									<p><i class="fa-solid fa-star gris_claire"></i></p>
 								</div>
-							</div>	
+							</div>
 						</div>
-					
+	
 					</div>
-
+	
 				</div>
-
+	
 			</aside>
 		</section>
-		
-<!-- partie activités a Marseille-->
-
+	
+		<!-- partie activités a Marseille-->
+	
 		<section>
-			<div id="activite"><h2>Activités à Marseille</h2></div>
+			<div id="activite">
+				<h2>Activités à Marseille</h2>
+			</div>
 			<div class="grande_carte_activite">
 				<div class="conteneur1">
-					<img class="image1 bordure_img_activite" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo activités">
+					<img class="image1 bordure_img_activite"
+						src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo activités">
 					<h5 class="sous_titre_activite">Vieux Port</h5>
 				</div>
 				<div class="conteneur2">
 					<div class="sous_conteneur1">
-						<div><img class="image2 bordure_img_activite" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo activités"></div>
-						<div><h5 class="sous_titre_activite">Fort de Pomègues</h5></div>
+						<div><img class="image2 bordure_img_activite"
+								src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo activités">
+						</div>
+						<div>
+							<h5 class="sous_titre_activite">Fort de Pomègues</h5>
+						</div>
 					</div>
 					<div class="sous_conteneur2">
-						<img class="image3 bordure_img_activite" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo activités">
+						<img class="image3 bordure_img_activite"
+							src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo activités">
 						<h5 class="sous_titre_activite">Îles du Frioul</h5>
 					</div>
-					
+	
 				</div>
 				<div class="conteneur3">
-					<img class="image4 bordure_img_activite" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo activités">
+					<img class="image4 bordure_img_activite"
+						src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo activités">
 					<h5 class="sous_titre_activite">Parc National des Calanques</h5>
 				</div>
 				<div class="conteneur4">
 					<div class="sous_conteneur3">
 						<div>
-							<img class="image5 bordure_img_activite" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo activités">
+							<img class="image5 bordure_img_activite"
+								src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo activités">
 							<h5 class="sous_titre_activite">Notre-dame-de-la-Garde</h5>
 						</div>
-						
+	
 					</div>
 					<div class="sous_conteneur4">
 						<div>
-							<img class="image6 bordure_img_activite" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo activités">
+							<img class="image6 bordure_img_activite"
+								src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo activités">
 							<h5 class="sous_titre_activite">Parc Longchamps</h5>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</section>	
+</div>
+		</main>
+		
+
 <!-- pied de page-->
 
+<div>
 	<footer class="pied_de_page">
 		<section class="flex_pied_page">
 			<div class="carte_pied_page">
 				<nav>
 					<ul class="marge_ul">
-						<li class="liste"><a href="#" style="text-decoration:none"><h4 class="sous_titre_pied">A propos</h4></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Fonctionnement du site</p></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><P class="marge_ligne">Conditions générales de vente</P></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Données et confidentialité</p></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="carte_pied_page">
-				<nav>
-					<ul>
-						<li class="liste"><a href="#" style="text-decoration:none"><h4 class="sous_titre_pied">Nos hébergements</h4></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Charte qualité</p></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Soumettre votre hôtel</p></a></li>
-					</ul>
-				</nav>
-			</div>
-			
-			<div class="carte">
-				<nav>
-					<ul>
-						<li class="liste"><a href="#" style="text-decoration:none"><h4 class="sous_titre_pied">Assistance</h4></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Centre d'aide</p></a></li>
-						<li class="liste"><a class="gris" href="#" style="text-decoration:none"><p class="marge_ligne">Nous contacter</p></a></li>
-					</ul>
-				</nav>
-			</div>
-		</section>
-	</footer>
-
-	</body>
+						<li class="liste"><a href="#" style="text-decoration:none">
+							<h4 class="sous_titre_pied">A propos</h4>
+							</a></li>
+						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+							<p class="marge_ligne">Fonctionnement du site</p>
+							</a></li>
+						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+							<P class="marge_ligne">Conditions générales de vente</P>
+							</a></li>
+						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+							<p class="marge_ligne">Données et confidentialité</p>
+						</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="carte_pied_page">
+					<nav>
+						<ul>
+							<li class="liste"><a href="#" style="text-decoration:none">
+									<h4 class="sous_titre_pied">Nos hébergements</h4>
+								</a></li>
+							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+									<p class="marge_ligne">Charte qualité</p>
+								</a></li>
+							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+									<p class="marge_ligne">Soumettre votre hôtel</p>
+								</a></li>
+						</ul>
+					</nav>
+				</div>
+	
+				<div class="carte">
+					<nav>
+						<ul>
+							<li class="liste"><a href="#" style="text-decoration:none">
+									<h4 class="sous_titre_pied">Assistance</h4>
+								</a></li>
+							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+									<p class="marge_ligne">Centre d'aide</p>
+								</a></li>
+							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+									<p class="marge_ligne">Nous contacter</p>
+								</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+		</footer>
+	</div>
+</body>
 
 
 </html>
