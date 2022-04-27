@@ -21,7 +21,6 @@
     .grande_carte_activite {
         width: auto;
     }
-    
     /*hébergment a marseille*/
   
     .format_tablette{
@@ -52,6 +51,9 @@
         width: 34%;
     }
     /* activité a marseille*/
+    .grande_carte_activite{
+        width: 100%;
+    }
     .sous_conteneur2{
         margin-top: 16px;
     }
@@ -153,7 +155,6 @@
     }
 
     .carte_blanche {
-        width: 80%;
         margin-left: 0;
     }
     /* aside les plus populaires*/

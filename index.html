@@ -12,23 +12,17 @@
 		@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 	</style>
 	<title>Booki</title>
-
 </head>
+<body>
 <div id="corps_de_page">
-	<body >
 		<!-- en tete de la page -->
 		<header>
-	
 			<div class="logo_nav">
 				<img class="logo" src="images/logo/Booki.png" alt="logo">
 				<nav class="nav">
-					<ul class="ul">
-						<div class="bordure_haut navigation_bordure_survol">
-							<li><a class="bleue" href="#hebergement" style="text-decoration:none">Hébergements</a></li>
-						</div>
-						<div class="bordure_haut navigation_bordure_survol.active">
-							<li class="li2"><a class="gris" href="#activite" style="text-decoration:none">Activités</a></li>
-						</div>
+					<ul class="ul">	
+					<li><div class="bordure_haut navigation_bordure_survol"><a class="bleue" href="#hebergement" style="text-decoration:none">Hébergements</a></div></li>	
+					<li class="li2"><div class="bordure_haut navigation_bordure_survol.active"><a class="gris" href="#activite" style="text-decoration:none">Activités</a></div></li>
 					</ul>
 				</nav>
 			</div>
@@ -48,7 +42,7 @@
 						<i class="fa-solid fa-location-dot"></i>
 					</div>
 					<div>
-						<form action="post" action="traitement.php">
+						<form method="post" action="traitement.php">
 							<label for="Ville"></label>
 							<input class="ville flex_centre" type="search" name="Ville" id="Ville"
 								placeholder="Marseille,France" />
@@ -59,7 +53,7 @@
 							type="submit">Rechercher</button>
 					</div>
 				</div>
-	
+			</div>
 		</section>
 		<!--filtre-->
 		<div class="filtre flex_centre marge texte_gras">
@@ -91,7 +85,7 @@
 			<i class="fa-solid fa-circle-info info_couleur"></i>
 			<div class="ligne_info">Plus de 500 logements sont disponible dans cette ville</div>
 		</div>
-		<main>
+<main>
 			<!-- Carte hébergement a Marseille-->
 	
 		<section class="marge largeur format_tablette">
@@ -102,8 +96,9 @@
 					<h3>Hébergement à Marseille </h3>
 				</div>
 				<div class="espace_carte">
-					<div a class="carte_blanche" href="#">
-						<div><img class="image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
+					<a href="#">
+						<div class="carte_blanche">
+						<div><img class="image" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo">
 						</div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Auberge La Cannebière</h4>
@@ -112,16 +107,17 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 25€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></i></p>
 						</div>
 					</div>
-	
+					</a>
+					<a href="#">
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+						<div><img class="image" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo">
 						</div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Hôtel du port</h4>
@@ -130,16 +126,18 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 52€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
 						</div>
-	
 					</div>
+					</a>
+
+					<a href="#">
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"></div>
+						<div><img class="image" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo"></div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Hôtel Les mouettes</h4>
 						</div>
@@ -147,17 +145,19 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 70€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></i></p>
 						</div>
 					</div>
+					</a>
 				</div>
 				<div class="espace_carte">
+					<a href="#">
 					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+						<div><img class="image" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo">
 						</div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Hôtel de la mer</h4>
@@ -166,15 +166,17 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 46€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></i></p>
 						</div>
 					</div>
-					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"></div>
+					</a>
+					<a href="#">
+						<div class="carte_blanche">
+						<div><img class="image" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="photo"></div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Auberge Le Panier</h4>
 						</div>
@@ -182,15 +184,18 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 23€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile gris_claire"></i></p>
 						</div>
 					</div>
-					<div class="carte_blanche">
-						<div><img class="image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+					
+					</a>
+					<a href="#">
+						<div class="carte_blanche">
+						<div><img class="image" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="photo">
 						</div>
 						<div class="margeligne">
 							<h4 class="marge_blanche">Hôtel chez Amina</h4>
@@ -199,13 +204,15 @@
 							<p class="marge_blanche taille_nuit">Nuit à partir de 96€</p>
 						</div>
 						<div class="margeligne etoile">
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
-							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></p></i>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
+							<p class="marge_blanche"><i class="fa-solid fa-star taille_etoile bleue"></i></p>
 						</div>
 					</div>
+					</a>
+					
 				</div>
 	
 				<div>
@@ -226,9 +233,10 @@
 						<div><i class="fa-solid fa-chart-line"></i></div>
 					</div>
 					<div class="carte_centre">
-						<div class="carte_blanche_populaire">
+						<a href="#">
+							<div class="carte_blanche_populaire">
 							<div><img class="image_populaire"
-									src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"></div>
+									src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photo"></div>
 							<div>
 								<div class="sous_titre_populaire">
 									<h4 class="marge_soustitre">Hôtel Le soleil du <br>matin</h4>
@@ -245,9 +253,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="carte_blanche_populaire">
+						</a>
+						<a href="#">
+							<div class="carte_blanche_populaire">
 							<div><img class="image_populaire"
-									src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"></div>
+									src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="photo"></div>
 							<div>
 								<div class="sous_titre_populaire">
 									<h4 class="marge_soustitre">Au coeur de l'eau <br> Chambres d'hôtes</h4>
@@ -264,9 +274,11 @@
 								</div>
 							</div>
 						</div>
-						<div class="carte_blanche_populaire">
+						</a>
+						<a href="#">
+							<div class="carte_blanche_populaire">
 							<div><img class="image_populaire"
-									src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"></div>
+									src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="photo"></div>
 							<div>
 								<div class="sous_titre_populaire">
 									<h4 class="marge_soustitre">Hôtel Tout bleu et <br> Blanc</h4>
@@ -283,27 +295,31 @@
 								</div>
 							</div>
 						</div>
-	
+						</a>
+						
 					</div>
-	
 				</div>
 	
 			</aside>
 		</section>
 	
 		<!-- partie activités a Marseille-->
-	
+<div>	
 		<section>
 			<div id="activite">
 				<h2>Activités à Marseille</h2>
 			</div>
 			<div class="grande_carte_activite">
-				<div class="conteneur1">
+				<a href="#">
+					<div class="conteneur1">
 					<img class="image1 bordure_img_activite"
 						src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo activités">
 					<h5 class="sous_titre_activite">Vieux Port</h5>
 				</div>
+				</a>
+				
 				<div class="conteneur2">
+				<a href="#">
 					<div class="sous_conteneur1">
 						<div><img class="image2 bordure_img_activite"
 								src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo activités">
@@ -317,13 +333,16 @@
 							src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo activités">
 						<h5 class="sous_titre_activite">Îles du Frioul</h5>
 					</div>
-	
+				</a>
 				</div>
+				<a href="#">
 				<div class="conteneur3">
 					<img class="image4 bordure_img_activite"
 						src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo activités">
 					<h5 class="sous_titre_activite">Parc National des Calanques</h5>
 				</div>
+				</a>
+				<a href="#">
 				<div class="conteneur4">
 					<div class="sous_conteneur3">
 						<div>
@@ -331,7 +350,6 @@
 								src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo activités">
 							<h5 class="sous_titre_activite">Notre-dame-de-la-Garde</h5>
 						</div>
-	
 					</div>
 					<div class="sous_conteneur4">
 						<div>
@@ -341,17 +359,16 @@
 						</div>
 					</div>
 				</div>
+				</a>
 			</div>
 		</section>	
 </div>
-		</main>
-		
-
+</main>	
+</div>	
 <!-- pied de page-->
-
 <div>
 	<footer class="pied_de_page">
-		<section class="flex_pied_page">
+		<div class="flex_pied_page">
 			<div class="carte_pied_page">
 				<nav>
 					<ul class="marge_ul">
@@ -366,10 +383,10 @@
 							</a></li>
 						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
 							<p class="marge_ligne">Données et confidentialité</p>
-						</li>
-						</ul>
-					</nav>
-				</div>
+							</a></li>
+					</ul>
+				</nav>
+			</div>
 				<div class="carte_pied_page">
 					<nav>
 						<ul>
@@ -386,25 +403,24 @@
 					</nav>
 				</div>
 	
-				<div class="carte">
-					<nav>
-						<ul>
-							<li class="liste"><a href="#" style="text-decoration:none">
-									<h4 class="sous_titre_pied">Assistance</h4>
+			<div class="carte">
+				<nav>
+					<ul>
+						<li class="liste"><a href="#" style="text-decoration:none">
+								<h4 class="sous_titre_pied">Assistance</h4>
 								</a></li>
-							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
-									<p class="marge_ligne">Centre d'aide</p>
+						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+								<p class="marge_ligne">Centre d'aide</p>
 								</a></li>
-							<li class="liste"><a class="gris" href="#" style="text-decoration:none">
-									<p class="marge_ligne">Nous contacter</p>
+						<li class="liste"><a class="gris" href="#" style="text-decoration:none">
+								<p class="marge_ligne">Nous contacter</p>
 								</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
-		</footer>
-	</div>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+</div>
 </body>
-
 
 </html>

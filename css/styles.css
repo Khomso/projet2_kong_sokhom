@@ -12,6 +12,9 @@ h4{
     font-size: small;
     color: black;
 }
+a{
+    text-decoration: none;
+}
 .texte_gras{
     font-weight: bold;
 }
@@ -353,19 +356,18 @@ input::placeholder{
 }
 .sous_titre_activite{
     margin: 10px;
+    color: black;
 }
 /* pied de page*/
 
 .sous_titre_pied{
     padding-top: 20px;
-    font-weight: bold;
     color: black;
     margin: 0;
 }
 .pied_de_page{
     margin-top: 20px;
     background-color: #F2F2F2;
-    width: 100%;
 }
 .liste{
     list-style: none;
@@ -375,7 +377,7 @@ input::placeholder{
 }
 .flex_pied_page{
     display: flex;
-    margin-left:24%;
+    justify-content: center; 
 }
 .marge_ligne{
     font-size: small;
