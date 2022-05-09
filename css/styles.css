@@ -15,7 +15,6 @@ h4 {
 a {
   text-decoration: none;
 }
-
 .texte_gras {
   font-weight: bold;
 }
@@ -51,6 +50,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 30px;
+  
 }
 .bordure_haut a:hover {
   border-top: 1px solid blue;
@@ -369,7 +369,8 @@ input::placeholder {
 }
 .flex_pied_page {
   display: flex;
-  justify-content: center;
+  max-width: 968px;
+  margin: auto;
 }
 .marge_ligne {
   font-size: small;
