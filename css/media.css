@@ -76,6 +76,7 @@
     margin-left: 0;
   }
 }
+
 /*format mobile*/
 @media screen and (max-width: 767px) {
   /*Classe générale*/
@@ -101,6 +102,7 @@
   .espace_carte,
   .grande_carte_activite {
     width: auto;
+    margin-left: 10px;
   }
   body {
     display: flex;
@@ -121,6 +123,19 @@
     margin-left: 0;
     padding: 0;
   }
+  h1,
+  .ligne,
+  h2{
+    margin-left: 10px;
+  }
+  h2{
+   font-size: 20px;
+  }
+  .ligne,
+  .ligne_info,
+  p {
+    color: black;
+  }
   .ul{
     justify-content: center;
 }
@@ -138,10 +153,18 @@
   .margeligne {
     line-height: initial;
   }
-  /*hébergement à marseille mobile*/
-  h3 {
-    text-align: center;
+  /*barre de recherche*/
+  .bouton_recherche{
+    width: auto;
+    border-radius: 10px;
   }
+  /*filtre*/
+  .filtre{
+    align-items: baseline;
+  }
+
+  /*hébergement à marseille mobile*/
+  
   .marge {
     display: flex;
     flex-direction: column;
@@ -158,6 +181,7 @@
 
   .taille_grande_carte,
   .taille_petite_carte {
+    width: auto;
     height: auto;
   }
   .afficher_plus {
@@ -185,17 +209,14 @@
     width: 65%;
   }
   /*activités à Marseille*/
-  h2 {
-    text-align: center;
-  }
   .grande_carte_activite {
     flex-direction: column;
     height: 100%;
     width: 100%;
   }
   .grande_carte_activite img {
-    width: 320px;
-    height: 240px;
+    width: 300px;
+    height: 150px;
   }
   .conteneur1,
   .conteneur2,
@@ -203,15 +224,13 @@
   .conteneur4 {
     display: flex;
     flex-direction: column;
-    align-self: center;
     margin-top: 30px;
   }
   /*footer*/
 
   .flex_pied_page {
     flex-direction: column;
-    text-align: center;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .carte_pied_page {
     width: 100%;
