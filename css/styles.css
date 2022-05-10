@@ -8,8 +8,8 @@ body {
 img {
   object-fit: cover;
 }
-h4 {
-  font-size: small;
+h3 {
+  font-size: 16px;
   color: black;
 }
 a {
@@ -45,6 +45,9 @@ a {
   justify-content: flex-end;
   list-style: none;
 }
+.noir{
+  color: black;
+}
 .bordure_haut a {
   display: flex;
   justify-content: center;
@@ -53,7 +56,12 @@ a {
   
 }
 .bordure_haut a:hover {
+  color: #0065fc;
   border-top: 1px solid blue;
+}
+.li2 a:hover{
+  color: gray;
+
 }
 .margeligne {
   line-height: 4px;
@@ -111,7 +119,6 @@ input::placeholder {
   width: 650px;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
 }
 .cercle_icone {
   display: flex;
@@ -133,14 +140,15 @@ input::placeholder {
   align-items: center;
   border: 1px solid #f2f2f2;
   border-radius: 30px;
-  cursor: pointer;
+}
+.taille_filtre:hover {
+  transform: scale(2.1);
 }
 .bordure_filtre {
   height: 30px;
   border-radius: 50px;
   border: none;
   background-color: white;
-  cursor: pointer;
 }
 .marge {
   display: flex;
@@ -289,7 +297,6 @@ input::placeholder {
   border: solid #f2f2f2;
 }
 .conteneur2 {
-  margin-left: 20px;
   border-radius: 20px;
 }
 .sous_conteneur1 {
@@ -302,12 +309,10 @@ input::placeholder {
   border: solid #f2f2f2;
 }
 .conteneur3 {
-  margin-left: 20px;
   border-radius: 20px;
   border: solid #f2f2f2;
 }
 .conteneur4 {
-  margin-left: 20px;
   border-radius: 20px;
 }
 .sous_conteneur3 {
