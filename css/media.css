@@ -99,8 +99,8 @@
   .filtre,
   .info,
   .taille_grande_carte,
-  .espace_carte,
-  .grande_carte_activite {
+  .grande_carte_activite,
+  .flex_pied_page {
     width: auto;
     margin-left: 10px;
   }
@@ -125,7 +125,7 @@
   }
   h1,
   .ligne,
-  h2{
+  h2 {
     margin-left: 10px;
   }
   h2{
@@ -158,25 +158,35 @@
     width: auto;
     border-radius: 10px;
   }
+  .transparent_rechercher{
+    opacity: 0;
+  }
+  
   /*filtre*/
   .filtre{
     align-items: baseline;
   }
-
+  .marge_filtre{
+    flex-direction: column;
+  }
+  /*info*/
+  .info{
+    justify-content:initial ;
+  }
   /*hébergement à marseille mobile*/
   
-  .marge {
+  .marge_section {
     display: flex;
-    flex-direction: column;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .marge_hebergement{
+    margin-left: 0;
   }
 
   .espace_carte {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px;
   }
 
   .taille_grande_carte,
@@ -184,38 +194,50 @@
     width: auto;
     height: auto;
   }
-  .afficher_plus {
-    text-align: center;
+  .taille_grande_carte{
+    margin-top: 25px;
+    background-color: white;
+  }
+  .carte_blanche{
+    border: solid #f2f2f2;
+    margin: auto;
+    margin-right: 10px;
+    width: auto;
+    height: auto;
+  }
+  .afficher_plus{
+    margin: 0;
   }
 
-  .carte_blanche {
-    margin-left: 0;
-  }
   /* aside les plus populaires*/
-
+  .carte_blanche_populaire{
+    width: 90%;
+    margin-bottom: 10px;
+  }
   .taille_petite_carte {
-    width: 100%;
     margin-left: 0;
     margin-top: 50px;
+    border-radius: 0;
   }
 
   .carte_centre {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: auto;
+    align-items: initial;
   }
   .element_droite {
-    width: 65%;
+    width: 85%;
   }
   /*activités à Marseille*/
   .grande_carte_activite {
+    display: block;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 94%;
   }
   .grande_carte_activite img {
-    width: 300px;
+    width: 100%;
     height: 150px;
   }
   .conteneur1,
@@ -230,7 +252,6 @@
 
   .flex_pied_page {
     flex-direction: column;
-    margin-left: 10px;
   }
   .carte_pied_page {
     width: 100%;
