@@ -114,7 +114,7 @@ input::placeholder {
   color: black;
 }
 .transparent_loupe{
-  opacity: 0;
+  display: none !important;
 }
 /*filtres*/
 .filtre {
@@ -145,7 +145,7 @@ input::placeholder {
   border-radius: 30px;
 }
 .taille_filtre:hover {
-  transform: scale(2.1);
+  transform: scale(1.3);
 }
 .bordure_filtre {
   height: 30px;
