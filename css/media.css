@@ -62,8 +62,9 @@
 }
   /*bordure bleu inversé pour mobile*/
   .navigation_bordure_survol {
-    width: 100%;
+    width: 99%;
     border-bottom: 2px transparent solid;
+    
   }
   .navigation_bordure_survol.active {
     border-color: blue;
@@ -134,7 +135,7 @@
     background-color: white;
   }
   .carte_blanche{
-    border: 1.2px solid #f2f2f2;
+    border: 3px solid #f2f2f2;
     margin: auto;
     margin-right: 10px;
     width: auto;
@@ -154,13 +155,13 @@
     margin-top: 50px;
     border-radius: 0;
   }
-
   .carte_centre {
     display: flex;
     flex-direction: column;
     margin: auto;
     align-items: initial;
   }
+  
   .element_droite {
     width: 85%;
   }

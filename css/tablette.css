@@ -7,7 +7,7 @@
     footer,
     #corps_de_page {
       width: 100%;
-      margin: auto;
+      margin:auto;
     }
     .bordure_haut a:hover {
       border: 0;
@@ -19,6 +19,13 @@
     .grande_carte_activite {
       width: auto;
     }
+    h1,
+    .filtre,
+    .info,
+    .barre_nav,
+    .ligne {
+      margin-left: 20px;
+    }
     
     /*hébergment a marseille*/
   
@@ -29,49 +36,51 @@
       gap: 25px;
     }
     /*les plus populaires*/
+
     .taille_petite_carte {
       display: block;
       margin-top: 30px;
-    }
-    .taille_petite_carte {
       width: 100%;
+      height: auto;
       margin-left: 0;
       margin-top: 50px;
     }
+
   
     .carte_centre {
       width: 100%;
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      flex-wrap: wrap;
+
     }
     .element_droite {
       width: 34%;
     }
     /* activité a marseille*/
+    .marge_titre_tablette{
+      margin-left: 20px;
+    }
+    .grande_carte_activite {
+      display: block;
+      flex-direction: column;
+      height: 100%;
+      width: 94%;
+      margin-left: 15px;
+    }
+    .grande_carte_activite img {
+      width: 100%;
+      height: 300px;
+    }
     .conteneur1,
     .conteneur2,
     .conteneur3,
     .conteneur4 {
       display: flex;
       flex-direction: column;
-      align-self: center;
       margin-top: 30px;
-    }
-    .grande_carte_activite {
-      width: 100%;
-    }
-    .sous_conteneur2 {
-      margin-top: 16px;
-    }
-    .sous_conteneur3 {
-      margin-bottom: 20px;
-    }
-    .image6 {
-      height: 120px;
     }
     /*pied de page*/
     .flex_pied_page {
-      margin-left: 0;
+      margin-left:20px;
     }
   }
