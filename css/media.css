@@ -61,15 +61,16 @@
     justify-content: center;
 }
   /*bordure bleu inversé pour mobile*/
+  
   .navigation_bordure_survol {
     width: 99%;
     border-bottom: 2px transparent solid;
     
   }
-  .navigation_bordure_survol.active {
-    border-color: blue;
+  .navigation_bordure_survol:hover{
+    border-bottom: 3px solid blue;
   }
-
+ 
   /*Espace entre les lignes annulé*/
 
   .margeligne {
@@ -90,20 +91,21 @@
   }
   
   /*filtre*/
-  .filtre{
-    align-items: baseline;
+  .filtre_mobile{
+    width: 100%;
+    margin-left: 10px;
+    font-size: medium;
   }
   .marge_filtre{
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
   }
   .texte_filtre{
-    font-size: large;
-    margin: 5px;
+    font-size: medium;
+    margin: 8px;
   }
   .taille_filtre{
-    margin: 5px;
+    margin: 8px;
   }
   /*info*/
   .info{
