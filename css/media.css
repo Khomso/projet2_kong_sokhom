@@ -89,7 +89,9 @@
     margin: 10px;
     font-size: large;
   }
-  
+  .transparent_bouton_desk{
+    display: block;
+  }
   /*filtre*/
   .filtre_mobile{
     width: 100%;

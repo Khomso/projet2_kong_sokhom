@@ -116,6 +116,10 @@ input::placeholder {
 .transparent_loupe{
   display: none !important;
 }
+.transparent_bouton_desk{
+  display: none;
+}
+
 /*filtres*/
 .filtre {
   display: flex;
